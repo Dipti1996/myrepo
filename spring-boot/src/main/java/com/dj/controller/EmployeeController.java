@@ -29,7 +29,7 @@ public class EmployeeController {
 	public void addEmployee(@RequestBody Employee e) {
 		es.addEmployee(e);
 	}
-	@DeleteMapping("/delEmp")
+	@DeleteMapping("/deleteEmp")
 	public void deleteEmployee(@RequestParam String name) {
 		es.deleteEmployee(name);
 	}
